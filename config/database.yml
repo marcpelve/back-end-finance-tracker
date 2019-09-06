@@ -1,4 +1,4 @@
-<% project_name = 'rails-api-template' %>
+<% project_name = 'back-end-finance-tracker' %>
 
 default: &default
   adapter: postgresql
