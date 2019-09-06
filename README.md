@@ -55,6 +55,12 @@ Create resource required for project.
   <td></td>
   </tr>
   <tr>
+  <td>transaction_date</td>
+  <td>date</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
   <td>created_at</td>
   <td>datetime</td>
   <td>created_at</td>
