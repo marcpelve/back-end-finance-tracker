@@ -3,14 +3,15 @@ class ExpensesController < ProtectedController
 
   # GET /expenses
   def index
-    @expenses = Expense.all
+    # @expenses = Expense.all
+    @expenses = current_user.expenses.all
 
     render json: @expenses
   end
 
   # GET /expenses/1
   def show
-    render json: Expense.find(params[:id])
+    render json: current_user.expenses.find(params[:id])
   end
 
   # POST /expenses
