@@ -137,8 +137,8 @@ Create resource required for project.
 ##### End Point Testing
 Create curl scripts to test routing and resource end points
 
-<ul style="list-style-type:none;">
-  <li>get -> #index, #show<li>
+<ul style="list-style-typenone;">
+  <li>get -> #index, #show</li>
   <li>post -> #create</li>
   <li>patch -> #update</li>
   <li>delete -> #destroy</li>
